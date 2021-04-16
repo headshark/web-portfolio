@@ -5,7 +5,7 @@
 <nav class="fixed top-0 z-10 flex flex-col flex-shrink-0 w-full bg-white md:w-60">
 	<div class="flex flex-row items-center justify-between md:flex-col md:mt-4">
 		<a class="p-4" href="/">
-			<img class="w-12 h-12 md:w-24 md:h-24" src="../../static/cdc.svg" alt="CDC Logo" />
+			<img class="w-12 h-12 md:w-24 md:h-24" src="/cdc.svg" alt="CDC Logo" />
 		</a>
 		<a class="p-4" href="/">
 			<h1 class="font-medium text-center md:text-lg">Christian Dela Cruz</h1>
