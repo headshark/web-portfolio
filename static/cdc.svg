@@ -1,0 +1,23 @@
+<svg width="334" height="278" viewBox="0 0 334 278" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="197" y="0" width="137" height="118">
+<path d="M197 -1.63371e-06L197 118L334 118L334 0L197 -1.63371e-06Z" fill="#896969"/>
+</mask>
+<g mask="url(#mask0)">
+<rect width="20" height="181.57" transform="matrix(-0.563104 0.826386 0.826386 0.563104 195.453 -0.860779)" fill="black"/>
+</g>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="8" width="149" height="113">
+<path d="M1.34751e-06 8L0 121L149 121L149 8L1.34751e-06 8Z" fill="#E60000"/>
+</mask>
+<g mask="url(#mask1)">
+<rect x="150.027" y="8.00012" width="20" height="181.574" transform="rotate(55.7293 150.027 8.00012)" fill="black"/>
+</g>
+<path d="M334 208H314V258H334V208Z" fill="black"/>
+<path d="M197 258L197 278L334 278L334 258L197 258Z" fill="black"/>
+<rect x="197" y="14.0001" width="20" height="264" fill="black"/>
+<path d="M97 258L97 278L163 278L163 258L97 258Z" fill="black"/>
+<path d="M117 158H97V258H117V158Z" fill="black"/>
+<path d="M163 158L163 138L97 138L97 158L163 158Z" fill="black"/>
+<rect x="163" y="6.10352e-05" width="20" height="278" fill="black"/>
+<path d="M20 258L20 278L83 278L83 258L20 258Z" fill="black"/>
+<rect y="110" width="20" height="168" fill="black"/>
+</svg>

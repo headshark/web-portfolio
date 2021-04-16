@@ -1,11 +1,11 @@
 module.exports = {
   purge: {
-    // enabled: true,
+    enabled: true,
     content: [
       './src/**/*.{html,js,php,svelte}'
     ]
   },
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media'
   theme: {
     extend: {
       fontFamily: {
