@@ -11,6 +11,10 @@
 }
 
 @layer utilities {
+	#svelte-announcer {
+		display: none;
+	}
+
 	.img-square {
 		position: relative;
 	}
