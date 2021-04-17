@@ -42,7 +42,7 @@
 	<div class="mt-24 mb-10 md:mt-10 md:ml-60">
 		<div
 			bind:this={wrapper}
-			class="grid grid-flow-row grid-cols-3 gap-3 mx-4 md:grid-cols-4 md:gap-4 lg:grid-cols-5 lg:gap-5"
+			class="grid grid-flow-row grid-cols-1 mx-4 gap-y-8 md:gap-4 md:grid-cols-4 lg:grid-cols-5 lg:gap-4"
 		>
 			{#each { length: 4 } as _}
 				{#each { length: 6 } as _, i}
@@ -50,7 +50,6 @@
 						<img
 							data-zoomable
 							data-lazy="{import.meta.env.VITE_IMG_PATH}/project1-{i + 1}.webp"
-							data-zoom-src="{import.meta.env.VITE_IMG_PATH}/project1-{i + 1}.webp"
 							alt="Project {i + 1}"
 						/>
 					</div>
