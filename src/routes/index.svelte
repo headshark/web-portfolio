@@ -35,7 +35,7 @@
 </script>
 
 <svelte:head>
-	<title>Christian Dela Cruz</title>
+	<title>Projects - Christian Dela Cruz</title>
 </svelte:head>
 
 <main>

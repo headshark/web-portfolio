@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>About</title>
+	<title>About - Christian Dela Cruz</title>
 </svelte:head>
 
 <main>
