@@ -14,7 +14,6 @@
 	#svelte-announcer {
 		display: none;
 	}
-
 	.img-square {
 		position: relative;
 	}
@@ -30,5 +29,10 @@
 		object-fit: cover;
 		left: 0;
 		top: 0;
+		opacity: 0;
+		transition: opacity 1200ms ease-out;
+	}
+	.fade {
+		opacity: 1 !important;
 	}
 }
