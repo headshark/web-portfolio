@@ -7,6 +7,7 @@
 @layer base {
 	body {
 		@apply text-gray-700 bg-white font-montserrat;
+		-webkit-tap-highlight-color: transparent;
 	}
 }
 
@@ -34,5 +35,8 @@
 	}
 	.fade {
 		opacity: 1 !important;
+	}
+	.link:hover span:last-child {
+		width: 100%;
 	}
 }
