@@ -2,7 +2,7 @@
 	let hidden = true;
 </script>
 
-<nav class="fixed top-0 z-10 flex flex-col flex-shrink-0 w-full bg-white md:w-60">
+<nav class="fixed top-0 flex flex-col flex-shrink-0 w-full bg-white md:w-60">
 	<div class="flex flex-row items-center justify-between md:flex-col md:mt-4">
 		<a class="p-4" href="/">
 			<img
