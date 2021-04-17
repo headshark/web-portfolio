@@ -89,6 +89,7 @@
 			class="flex items-center p-2 mr-2 transform hover:scale-110"
 			href="https://www.instagram.com/"
 			target="_blank"
+			rel="noopener"
 		>
 			<img class="w-5 h-5 " src="instagram.svg" alt="Instagram" width="5 px" height="5 px" />
 		</a>
@@ -97,6 +98,7 @@
 			class="flex items-center p-2 ml-2 transform hover:scale-110"
 			href="https://www.linkedin.com/"
 			target="_blank"
+			rel="noopener"
 		>
 			<img class="w-5 h-5" src="linkedin.svg" alt="Linked In" width="5 px" height="5 px" />
 		</a>
