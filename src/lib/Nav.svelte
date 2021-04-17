@@ -7,15 +7,15 @@
 	<div class="flex flex-row items-center justify-between md:flex-col md:mt-4">
 		<a class="p-4" href="/">
 			<img
-				class="w-12 h-12 md:w-24 md:h-24"
+				class="w-12 h-12 md:w-28 md:h-28"
 				src="/cdc.svg"
 				alt="CDC Logo"
-				width="24px"
-				height="24px"
+				width="28px"
+				height="28px"
 			/>
 		</a>
 		<a class="p-4" href="/">
-			<h1 class="font-medium text-center md:text-lg">Christian Dela Cruz</h1>
+			<h1 class="font-medium text-center md:text-xl">Christian Dela Cruz</h1>
 		</a>
 		<button
 			class="p-4 md:hidden focus:outline-none focus:shadow-outline"
