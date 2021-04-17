@@ -1,8 +1,9 @@
 <script>
+	import { page } from '../stores';
 	let hidden = true;
 </script>
 
-<nav class="fixed top-0 flex flex-col flex-shrink-0 w-full bg-white md:w-60">
+<nav class="fixed top-0 z-10 flex flex-col flex-shrink-0 w-full bg-white md:z-0 md:w-60">
 	<div class="flex flex-row items-center justify-between md:flex-col md:mt-4">
 		<a class="p-4" href="/">
 			<img
@@ -45,12 +46,35 @@
 		</button>
 	</div>
 	<div class="flex-grow px-4 pb-4 text-sm md:overflow-y-auto md:h-screen md:block" class:hidden>
-		<a class="flex items-center py-2 md:px-2" href="/" on:click={() => (hidden = true)}>Projects</a>
-		<a class="flex items-center py-2 md:px-2" href="/about" on:click={() => (hidden = true)}
-			>About</a
-		>
-		<a class="flex items-center py-2 md:px-2" href="/contact" on:click={() => (hidden = true)}
-			>Contact</a
-		>
+		<a class="flex items-center py-2 md:px-2" href="/" on:click={() => (hidden = true)}>
+			<p class="relative w-max link">
+				<span>Projects</span>
+				<span
+					class="absolute left-0 h-1 transition-all bg-yellow-400 -bottom-1 {$page === 'projects'
+						? 'w-full'
+						: 'w-0'}"
+				/>
+			</p>
+		</a>
+		<a class="flex items-center py-2 md:px-2" href="/about" on:click={() => (hidden = true)}>
+			<p class="relative w-max link">
+				<span>About</span>
+				<span
+					class="absolute left-0 h-1 transition-all bg-yellow-400 -bottom-1 {$page === 'about'
+						? 'w-full'
+						: 'w-0'}"
+				/>
+			</p>
+		</a>
+		<a class="flex items-center py-2 md:px-2" href="/contact" on:click={() => (hidden = true)}>
+			<p class="relative w-max link">
+				<span>Contact</span>
+				<span
+					class="absolute left-0 h-1 transition-all bg-yellow-400 -bottom-1 {$page === 'contact'
+						? 'w-full'
+						: 'w-0'}"
+				/>
+			</p>
+		</a>
 	</div>
 </nav>

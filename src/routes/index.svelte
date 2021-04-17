@@ -1,8 +1,10 @@
 <script>
+	import { page } from '../stores';
 	import { onMount } from 'svelte';
 	import mediumZoom from 'medium-zoom';
 	let wrapper;
 
+	page.set('projects');
 	onMount(() => {
 		const images = wrapper.querySelectorAll('img');
 		const lazyLoad = (target) => {
