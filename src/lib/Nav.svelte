@@ -3,19 +3,21 @@
 	let hidden = true;
 </script>
 
-<nav class="fixed top-0 z-10 flex flex-col flex-shrink-0 w-full bg-white md:z-0 md:w-60">
+<nav
+	class="fixed top-0 z-10 flex flex-col flex-shrink-0 w-full bg-white shadow-lg md:z-0 md:w-60 md:h-screen"
+>
 	<div class="flex flex-row items-center justify-between md:flex-col md:mt-4">
 		<a class="p-4" href="/">
 			<img
-				class="w-12 h-12 md:w-24 md:h-24"
+				class="w-12 h-12 md:w-28 md:h-28"
 				src="/cdc.svg"
 				alt="CDC Logo"
-				width="24px"
-				height="24px"
+				width="28px"
+				height="28px"
 			/>
 		</a>
 		<a class="p-4" href="/">
-			<h1 class="font-medium text-center md:text-lg">Christian Dela Cruz</h1>
+			<h1 class="font-medium text-center md:text-xl">Christian Dela Cruz</h1>
 		</a>
 		<button
 			class="p-4 md:hidden focus:outline-none focus:shadow-outline"
@@ -45,7 +47,7 @@
 			</svg>
 		</button>
 	</div>
-	<div class="flex-grow px-4 pb-4 text-sm md:overflow-y-auto md:h-screen md:block" class:hidden>
+	<div class="flex flex-col px-4 pb-4 text-sm md:overflow-y-auto md:flex" class:hidden>
 		<a class="flex items-center py-2 md:px-2" href="/" on:click={() => (hidden = true)}>
 			<p class="relative w-max link">
 				<span>Projects</span>
@@ -75,6 +77,28 @@
 						: 'w-0'}"
 				/>
 			</p>
+		</a>
+	</div>
+
+	<!-- TODO: Update social links -->
+	<div
+		class="flex flex-row items-center justify-center px-4 mt-auto mb-4 md:md-6 md:flex"
+		class:hidden
+	>
+		<a
+			class="flex items-center p-2 mr-2 transform hover:scale-110"
+			href="https://www.instagram.com/"
+			target="_blank"
+		>
+			<img class="w-5 h-5 " src="instagram.svg" alt="Instagram" width="5 px" height="5 px" />
+		</a>
+
+		<a
+			class="flex items-center p-2 ml-2 transform hover:scale-110"
+			href="https://www.linkedin.com/"
+			target="_blank"
+		>
+			<img class="w-5 h-5" src="linkedin.svg" alt="Linked In" width="5 px" height="5 px" />
 		</a>
 	</div>
 </nav>
