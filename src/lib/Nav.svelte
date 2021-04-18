@@ -4,17 +4,11 @@
 </script>
 
 <nav
-	class="fixed top-0 z-10 flex flex-col flex-shrink-0 w-full bg-white shadow-lg md:z-0 md:w-60 md:h-screen"
+	class="fixed top-0 z-10 flex flex-col flex-shrink-0 w-full bg-gray-100 shadow-md md:z-0 md:w-60 md:h-screen"
 >
 	<div class="flex flex-row items-center justify-between md:flex-col md:mt-4">
 		<a class="p-4" href="/">
-			<img
-				class="w-12 h-12 md:w-28 md:h-28"
-				src="/cdc.svg"
-				alt="CDC Logo"
-				width="28px"
-				height="28px"
-			/>
+			<img class="w-12 h-12 md:w-28 md:h-28" src="/cdc.svg" alt="CDC Logo" width="28" height="28" />
 		</a>
 		<a class="p-4" href="/">
 			<h1 class="font-medium text-center md:text-xl">Christian Dela Cruz</h1>
