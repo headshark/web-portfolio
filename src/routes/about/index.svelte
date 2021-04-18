@@ -1,6 +1,31 @@
 <script>
 	import { page } from '../../stores';
+	import { onMount } from 'svelte';
+	let wrapper;
+
 	page.set('about');
+	onMount(() => {
+		const images = wrapper.querySelectorAll('img');
+		const lazyLoad = (target) => {
+			const io = new IntersectionObserver((entries, observer) => {
+				entries.forEach((entry) => {
+					if (entry.isIntersecting) {
+						const img = entry.target;
+						const src = img.getAttribute('data-lazy');
+
+						img.setAttribute('src', src);
+						img.classList.add('fade');
+
+						observer.disconnect();
+					}
+				});
+			});
+
+			io.observe(target);
+		};
+
+		images.forEach(lazyLoad);
+	});
 </script>
 
 <svelte:head>
@@ -12,10 +37,10 @@
 		<div
 			class="grid grid-flow-row grid-cols-1 mx-4 mb-24 gap-y-10 xl:mx-32 xl:grid-cols-3 xl:gap-x-10 lg:mx-16 md:mx-8"
 		>
-			<div class="flex items-center justify-center xl:justify-start">
+			<div bind:this={wrapper} class="flex items-center justify-center xl:justify-start">
 				<img
-					class="h-auto w-96"
-					src="{import.meta.env.VITE_IMG_PATH}/steph-curry.png"
+					class="h-auto w-96 img-profile"
+					data-lazy="{import.meta.env.VITE_IMG_PATH}/steph-curry.png"
 					alt="Christian Dela Cruz"
 					width="453"
 					height="551"
