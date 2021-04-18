@@ -12,6 +12,11 @@
 }
 
 @layer utilities {
+	#svelte {
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+	}
 	#svelte-announcer {
 		display: none;
 	}

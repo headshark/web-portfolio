@@ -7,7 +7,7 @@
 	<title>Contact - Christian Dela Cruz</title>
 </svelte:head>
 
-<main>
+<main class="flex-1">
 	<div class="mt-24 mb-10 md:mt-32 md:ml-60">
 		<div
 			class="grid grid-flow-row grid-cols-1 px-8 py-16 mx-4 mb-24 border border-gray-700 rounded-lg sm:mx-8 xl:px-12 gap-y-10 xl:mx-32 xl:grid-cols-2 xl:gap-x-10 lg:mx-16"
