@@ -15,7 +15,7 @@
 			<div class="flex items-start justify-start">
 				<h1 class="text-4xl font-medium lg:text-6xl">Want to get in touch?</h1>
 			</div>
-			<form name="contact" method="POST" data-netlify="true">
+			<form name="contact" method="POST" data-netlify="true" netlify>
 				<div class="flex flex-col">
 					<div class="flex flex-col md:flex-row">
 						<div class="flex-1 mb-6 md:mr-3">
