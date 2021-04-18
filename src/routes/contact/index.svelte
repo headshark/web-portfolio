@@ -15,13 +15,7 @@
 			<div class="flex items-start justify-start">
 				<h1 class="text-4xl font-medium lg:text-6xl">Want to get in touch?</h1>
 			</div>
-			<form name="contact" netlify netlify-honeypot="bot-field" hidden>
-				<input type="text" name="name" />
-				<input type="email" name="email" />
-				<textarea name="message" />
-			</form>
 			<form name="contact" method="POST" class="flex flex-col">
-				<input type="hidden" name="form-name" value="contact" />
 				<div class="flex flex-col md:flex-row">
 					<div class="flex-1 mb-6 md:mr-3">
 						<label class="block mb-2 text-sm font-medium text-gray-500" for="name">Name</label>
@@ -70,3 +64,10 @@
 		</div>
 	</div>
 </main>
+
+<form name="contact" netlify netlify-honeypot="bot-field" hidden>
+	<input type="hidden" name="form-name" value="contact" />
+	<input type="text" name="name" />
+	<input type="email" name="email" />
+	<textarea name="message" />
+</form>
