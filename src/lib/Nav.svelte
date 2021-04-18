@@ -4,19 +4,13 @@
 </script>
 
 <nav
-	class="fixed top-0 z-10 flex flex-col flex-shrink-0 w-full bg-white shadow-lg md:z-0 md:w-60 md:h-screen"
+	class="fixed top-0 z-10 flex flex-col flex-shrink-0 w-full bg-gray-100 shadow-md md:z-0 md:w-60 md:h-screen"
 >
 	<div class="flex flex-row items-center justify-between md:flex-col md:mt-4">
-		<a class="p-4" href="/">
-			<img
-				class="w-12 h-12 md:w-28 md:h-28"
-				src="/cdc.svg"
-				alt="CDC Logo"
-				width="28px"
-				height="28px"
-			/>
+		<a class="p-4" href="/" on:click={() => (hidden = true)}>
+			<img class="w-12 h-12 md:w-28 md:h-28" src="/cdc.svg" alt="CDC Logo" width="28" height="28" />
 		</a>
-		<a class="p-4" href="/">
+		<a class="p-4" href="/" on:click={() => (hidden = true)}>
 			<h1 class="font-medium text-center md:text-xl">Christian Dela Cruz</h1>
 		</a>
 		<button
@@ -86,21 +80,20 @@
 		class:hidden
 	>
 		<a
-			class="flex items-center p-2 mr-2 transform hover:scale-110"
+			class="flex items-center p-2 transform hover:scale-110"
 			href="https://www.instagram.com/"
 			target="_blank"
 			rel="noopener"
 		>
-			<img class="w-5 h-5 " src="instagram.svg" alt="Instagram" width="5 px" height="5 px" />
+			<img class="w-5 h-5" src="instagram.svg" alt="Instagram" width="5" height="5" />
 		</a>
-
 		<a
-			class="flex items-center p-2 ml-2 transform hover:scale-110"
+			class="flex items-center p-2 transform hover:scale-110"
 			href="https://www.linkedin.com/"
 			target="_blank"
 			rel="noopener"
 		>
-			<img class="w-5 h-5" src="linkedin.svg" alt="Linked In" width="5 px" height="5 px" />
+			<img class="w-5 h-5" src="linkedin.svg" alt="Linked In" width="5" height="5" />
 		</a>
 	</div>
 </nav>
