@@ -10,9 +10,9 @@
 <main>
 	<div class="mt-24 mb-10 md:mt-32 md:ml-60">
 		<div
-			class="grid grid-flow-row grid-cols-1 mx-4 mb-24 gap-y-10 lg:mx-32 lg:grid-cols-3 lg:gap-x-10"
+			class="grid grid-flow-row grid-cols-1 mx-4 mb-24 gap-y-10 xl:mx-32 xl:grid-cols-3 xl:gap-x-10 lg:mx-16 md:mx-8"
 		>
-			<div class="flex items-center justify-center lg:justify-start">
+			<div class="flex items-center justify-center xl:justify-start">
 				<img
 					class="h-auto w-96"
 					src="{import.meta.env.VITE_IMG_PATH}/steph-curry.png"
@@ -30,7 +30,7 @@
 			</div>
 		</div>
 		<div
-			class="grid grid-flow-row grid-cols-1 mx-4 mb-24 gap-y-10 lg:mx-32 lg:grid-cols-3 lg:gap-x-10"
+			class="grid grid-flow-row grid-cols-1 mx-4 mb-24 gap-y-10 xl:mx-32 xl:grid-cols-3 xl:gap-x-10 lg:mx-16 md:mx-8"
 		>
 			<div class="flex flex-col items-start justify-start col-span-2">
 				<h2 class="mb-4 text-4xl font-medium">My Career So Far</h2>
