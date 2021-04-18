@@ -42,8 +42,8 @@
 		</button>
 	</div>
 	<div class="flex flex-col px-4 pb-4 text-sm md:overflow-y-auto md:flex" class:hidden>
-		<a class="flex items-center py-2 md:px-2" href="/" on:click={() => (hidden = true)}>
-			<p class="relative w-max link">
+		<a class="flex items-center py-2 md:px-2 link" href="/" on:click={() => (hidden = true)}>
+			<p class="relative w-max">
 				<span>Projects</span>
 				<span
 					class="absolute left-0 h-1 transition-all bg-yellow-400 -bottom-1 {$page === 'projects'
@@ -52,8 +52,8 @@
 				/>
 			</p>
 		</a>
-		<a class="flex items-center py-2 md:px-2" href="/about" on:click={() => (hidden = true)}>
-			<p class="relative w-max link">
+		<a class="flex items-center py-2 md:px-2 link" href="/about" on:click={() => (hidden = true)}>
+			<p class="relative w-max">
 				<span>About</span>
 				<span
 					class="absolute left-0 h-1 transition-all bg-yellow-400 -bottom-1 {$page === 'about'
@@ -62,8 +62,8 @@
 				/>
 			</p>
 		</a>
-		<a class="flex items-center py-2 md:px-2" href="/contact" on:click={() => (hidden = true)}>
-			<p class="relative w-max link">
+		<a class="flex items-center py-2 md:px-2 link" href="/contact" on:click={() => (hidden = true)}>
+			<p class="relative w-max">
 				<span>Contact</span>
 				<span
 					class="absolute left-0 h-1 transition-all bg-yellow-400 -bottom-1 {$page === 'contact'
