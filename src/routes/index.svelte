@@ -38,7 +38,7 @@
 	<title>Projects - Christian Dela Cruz</title>
 </svelte:head>
 
-<main>
+<main class="flex-1">
 	<div class="mt-24 mb-10 md:mt-10 md:ml-60">
 		<div
 			bind:this={wrapper}

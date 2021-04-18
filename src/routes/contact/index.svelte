@@ -7,7 +7,7 @@
 	<title>Contact - Christian Dela Cruz</title>
 </svelte:head>
 
-<main>
+<main class="flex-1">
 	<div class="mt-24 mb-10 md:mt-32 md:ml-60">
 		<div
 			class="grid grid-flow-row grid-cols-1 px-8 py-16 mx-4 mb-24 border border-gray-700 rounded-lg sm:mx-8 xl:px-12 gap-y-10 xl:mx-32 xl:grid-cols-2 xl:gap-x-10 lg:mx-16"
@@ -15,7 +15,7 @@
 			<div class="flex items-start justify-start">
 				<h1 class="text-4xl font-medium lg:text-6xl">Want to get in touch?</h1>
 			</div>
-			<form name="contact" method="POST" data-netlify="true">
+			<form name="contact" method="POST" data-netlify="true" netlify>
 				<div class="flex flex-col">
 					<div class="flex flex-col md:flex-row">
 						<div class="flex-1 mb-6 md:mr-3">
