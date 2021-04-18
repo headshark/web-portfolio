@@ -38,6 +38,10 @@
 		opacity: 0;
 		transition: opacity 1200ms ease-out !important;
 	}
+	.img-profile {
+		opacity: 0;
+		transition: opacity 1200ms ease-out !important;
+	}
 	.fade {
 		opacity: 1 !important;
 	}
